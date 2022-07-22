@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    padding-left: 3px;
+    width: 100px;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.navbar{
+    font-weight: 550;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.navbar a:hover{
+    color: red;
+    transition: ease-in 0.3s;
+}
+
+.container-1{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    display: flex;
+}
+
+.text{
+    position: relative;
+    top: 50px;
+    left: 200px;
+    font-size: 2.5rem;
+    padding: 20px;
+}
+
+.img1{
+    width: 500px;
+    height: 350px;
+    position: relative;
+    left: 550px;
+    margin-top: 50px;
+    padding: 30px;
+}
+
+p{
+    position: relative;
+    padding-left: 30px;
+    width: 500px;
+    left: 100px;
+    top: -100px;
+    text-indent: 50px;
+
+}
+
+.staff{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+}
+
+.container-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.container-2 img{
+    width: 250px;
+    height: 300px;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.4rem;
+}
+
+.eric{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.eric h2{
+    margin-top: 20px;
+}
+
+.garrett{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.garrett h2{
+    margin-top: 20px;
+}
+
+.dillon{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dillon h2{
+    margin-top: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+
+
+@media (max-width: 600px) {
+    .container-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        white-space: nowrap;
+        left: 150px;
+    }
+
+    p{
+        position: absolute;
+        left: 0px;
+        text-align: center;
+        padding: 20px;
+        overflow: hidden;
+    }
+
+    .container-2{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .eric h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .garrett h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .dillon h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+}
+
+
+@media (max-width: 750px) {
+    .container-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text{
+        position: absolute;
+        white-space: nowrap;
+    }
+
+    p{
+        position: absolute;
+        text-align: center;
+        top: 200px;
+        padding: 30px;
+        overflow: hidden;
+    }
+
+    .img1{
+        left: 0px;
+        margin-top: 700px;
+    }
+
+    .container-2{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .staff{
+        margin-top: 400px;
+    }
+
+    .eric h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .garrett h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .dillon h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+}
+

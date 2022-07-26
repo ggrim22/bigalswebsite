@@ -266,7 +266,7 @@ footer{
     }
 }
 
-@media(max-width: 350px){
+@media(max-width: 400px){
     body{
         overflow-x: hidden;
     }

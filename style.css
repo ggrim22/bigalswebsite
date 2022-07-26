@@ -109,14 +109,14 @@ section h2{
 }
 
 .slide:first-child{
-    background: url(../Big\ Als\ Website/img1.webp) no-repeat center center/contain;
+    background: url(/Big\ Als\ Website/img1.webp) no-repeat center center/contain;
 }
 .slide:nth-child(2){
-    background: url(../Big\ Als\ Website/Yellow.jpg) no-repeat center top/contain;
+    background: url(/Big\ Als\ Website/Yellow.jpg) no-repeat center top/contain;
 
 }
 .slide:nth-child(3){
-    background: url(../Big\ Als\ Website/black.jpg) no-repeat center top/contain;
+    background: url(/Big\ Als\ Website/black.jpg) no-repeat center top/contain;
 }
 
 .buttons button#next {

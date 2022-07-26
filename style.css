@@ -52,7 +52,7 @@ ul{
 }
 
 .header{
-    background: url("shirtimg.jpg")  no-repeat center center/cover;
+    background: url("images/shirtimg.jpg")  no-repeat center center/cover;
     color: #fff;
     font-size: 28px;
 }
@@ -109,14 +109,14 @@ section h2{
 }
 
 .slide:first-child{
-    background: url(/Big\ Als\ Website/img1.webp) no-repeat center center/contain;
+    background: url(/Big\ Als\ Website/images/img1.webp) no-repeat center center/contain;
 }
 .slide:nth-child(2){
-    background: url(/Big\ Als\ Website/Yellow.jpg) no-repeat center top/contain;
+    background: url(/Big\ Als\ Website/images/Yellow.jpg) no-repeat center top/contain;
 
 }
 .slide:nth-child(3){
-    background: url(/Big\ Als\ Website/black.jpg) no-repeat center top/contain;
+    background: url(/Big\ Als\ Website/images/black.jpg) no-repeat center top/contain;
 }
 
 .buttons button#next {

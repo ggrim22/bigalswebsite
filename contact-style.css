@@ -119,10 +119,27 @@ footer{
     color: white;
 }
 
-@media(max-width: 784px){
+@media(max-width: 360px){
+    section{
+        padding: 10px;
+        margin-top: -100px;
+        margin-right: 100px;
+    }
+
+    .navbar ul li{
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+
+    .contact-info{
+        justify-content: center;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 15px;
+    }
+
     footer{
         margin-top: 540px;
+        text-align: center;
     }
-    
-    
 }

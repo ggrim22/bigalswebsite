@@ -12,6 +12,7 @@ img{
 
 body{
     font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -33,7 +34,7 @@ ul{
 .navbar .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100%;
 }
 
@@ -42,7 +43,7 @@ ul{
 }
 
 .navbar ul li{
-    margin-left: 40px;
+    margin-left: 10px;
     margin-right: 20px;
 }
 
@@ -62,6 +63,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     height: 400px;
 }
 

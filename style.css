@@ -94,6 +94,7 @@ section h2{
     background-position: center;
     overflow: hidden;
     width: min-content;
+    margin-top: -50px;
 }
 
 .slide{
@@ -110,26 +111,28 @@ section h2{
 }
 
 .slide:first-child{
-    background: url(./images/img1.webp) no-repeat center center/contain;
+    background: url(./images/image0.png) no-repeat center top/contain;
 }
 .slide:nth-child(2){
-    background: url(./images/Yellow.jpg) no-repeat center top/contain;
+    background: url(./images/image1.png) no-repeat center center/contain;
 
 }
 .slide:nth-child(3){
-    background: url(./images/black.jpg) no-repeat center top/contain;
+    background: url(./images/image2.png) no-repeat center center/contain;
 }
 
 .buttons button#next {
     position: absolute;
     top: 775px;
     right: 320px;
+    display: none;
 }
 
 .buttons button#prev {
     position: absolute;
     top: 775px;
     left: 320px;
+    display: none;
 }
 
 .btn-container #contact{

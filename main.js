@@ -40,7 +40,3 @@ prev.addEventListener("click", e =>{
 if(auto){
     slideInterval = setInterval(nextSlide, intervalTime);
 }
-
-document.querySelector("#contact").onclick = function () {
-    location.href = "http://127.0.0.1:5500/Big%20Als%20Website/contact.html"
-}

@@ -97,6 +97,8 @@ section h2{
 
 .fa-phone{
     margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .color-overlay{

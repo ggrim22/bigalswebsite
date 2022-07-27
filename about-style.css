@@ -178,7 +178,7 @@ footer{
             top: 200px;
             padding: 30px;
             overflow: hidden;
-            left: 5px;
+            left: 20px;
             padding-left: 0px;
             font-size: 0.9rem;
             width: 350px;
@@ -187,7 +187,7 @@ footer{
         }
     
         .img1{
-            width: fit-content;
+            width: 300px;
             left: 0px;
             margin-top: 720px;
         }

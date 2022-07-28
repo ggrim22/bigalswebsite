@@ -144,4 +144,8 @@ footer{
         margin-top: 540px;
         text-align: center;
     }
+
+    .fa-phone{
+        text-decoration: none;
+    }
 }

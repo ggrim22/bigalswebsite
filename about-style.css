@@ -138,6 +138,16 @@ p{
     margin-top: 20px;
 }
 
+.mike{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mike h2{
+    margin-top: 20px;
+}
+
 
 footer{
     display: flex;
@@ -223,6 +233,11 @@ footer{
             padding: 20px;
         }
 
+        .mike h2{
+            margin-top: 0px;
+            padding: 20px;
+        }
+
         footer{
             text-align: center;
         }
@@ -279,6 +294,11 @@ footer{
     }
 
     .dillon h2{
+        margin-top: 0px;
+        padding: 20px;
+    }
+
+    .mike h2{
         margin-top: 0px;
         padding: 20px;
     }
